@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta author="Santhiago, Heder">
+	<title>Trabalho do Bimestre 1</title>
+</head>
+<body>
+	<div>
+		<h1 id="topo">Trabalho do Bimestre</h1>
+		<h2>Desenvolvimento de Aplicações para Web</h2>
+		<h3>Acadêmicos: <br>
+			Santhiago Monteiro Pereira <br>
+			Heder Carlos Milani</h3>
+	</div>
+	<br>
+	<br>
+	<div>
+		<h2>Lista de Seletores:</h2>
+		<p>
+			<ul>
+				<li><a href="#id">ID</a></li>
+				<li><a href="#class">Class</a></li>
+				<li><a href="#tag">Nome de Tag</a></li>
+				<li><a href="#universal">Universal</a></li>
+				<li><a href="#simples">Simples</a></li>
+				<li><a href="#combinado">Combinado</a></li>
+				<li><a href="#descendente">Descendente</a></li>
+				<li><a href="#filho">Seletor Filho</a></li>
+				<li><a href="#irmaoAdjacente">Seletor Irmão Adjacente</a></li>
+				<li><a href="#seletorAtributo">Seletores Baseados no Atributo</a></li>
+			</ul>
+		</p>
+	</div>
+
+	<div>
+		<style>
+	 		i#ide {color: blue;}
+	 	</style>
+
+		<h2 id="id">Seletor por ID</h2>
+		<h3>Em um documento HTML, os seletores de ID do CSS selecionam um elemento <br>
+		baseado no conteúdo de seu atributo id,  o qual deve ser exatamente igual ao <br>
+		 valor dado ao seletor.</h3>
+	 	<h4>Exemplo:</h4>
+	 	
+	 	<i id="ide">Este texto é azul! Pois o id ide está definido para apresentar a cor azul.</i><hr>
+	</div>
+
+	<div>
+		<style>
+			.class{ color: darkseagreen; }
+		</style>
+		
+		<h2 id="class">Seletor por Classe</h2>
+		<h3>O seletor de classes CSS corresponde aos elementos com base no conteúdo <br>
+			de seus atributos class.</h3>
+		<h4>Exemplo:</h4>
+		<i class="class">Este texto está na cor verde escuro marinho! Pois está instanciado <br>
+		na classe class, que atribui essa cor</i><hr>	
+	</div>
+
+	<div>
+		<style>
+			h5 {color: indigo;}
+		</style>
+
+		<h2 id="tag">Seletor por Tag</h2>
+		<h3>Este seletor básico escolhe todos os elementos que correspondem ao nome fornecido.</h3>
+		<h4>Exemplo:</h3>
+		<h5>Este texto está na cor indigo! Pois a tag h5 está atribuida para apresentar essa cor</h5><hr>
+	</div>
+
+	<div>
+		<style>
+			*#universals { color: orange; }
+		</style>
+
+		<h2>Seletor Universal</h2>
+		<h3>Este seletor básico irá escolher todos os nós.</h3>
+		<h4>Exemplo:</h4>
+		<i id="universals">Este texto está laranja! Isso porque todas as tags universals do código terão a cor laranja.</i> 
+	</div>
+	
+	<p id="fim"><a href="#topo">Retornar ao Topo</p>
+</body>
+</html>
